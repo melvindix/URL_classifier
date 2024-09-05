@@ -1,0 +1,2 @@
+This repo is the result of my internship in the Priesemann group. I used an existing database to classify the URL reliability. With 'load_pickle.py', existing files with all URLs are transformed into .parquet file which are then rated with an external dataset (available at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10500312/ ) in 'rate_parquet.py'.
+To analyse the spread of a certain domain (as an example breitbart.com), the other scripts in the URL_classifier folder can be used.
